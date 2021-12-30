@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #gfather h3{
+           color: red;;
+       }
+   div > p{
+       color: brown;
+   }
+div +p{
+    color: rgb(180, 207, 26);
+}
+div ~ p{
+font-family: 'Courier New', Courier, monospace;
+}
+#gfather > h1{
+    font-family: fantasy;
+}
+body{
+    background-image: linear-gradient(to bottom,red, yellow);
+}
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <p>Paragraph 1 in the div.</p>
+        <p>Paragraph 2 in the div.</p>
+        <section>
+          <!-- not Child but Descendant -->
+          <p>Paragraph 3 in the div (inside a section element).</p>
+        </section>
+        <p>Paragraph 4 in the div.</p>
+      </div>
+      
+      <p>Paragraph 5. Not in a div.</p>
+      <p>Paragraph 6. Not in a div.</p>
+
+
+
+    <div id="gfather">
+        <h3>new</h3>
+        <h1 id="hson">son1</h1>
+       
+        <h2> daughter
+            <h3>gchild</h3>
+
+            <h1>thjis is new h1</h1>
+        </h2>
+        <p>son</p>
+    </div>
+</body>
+
+</html>
