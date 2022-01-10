@@ -1,0 +1,9 @@
+cpu
+RAM
+HD
+
+
+program-- set of  instructions for processor to perform some thing.
+
+data -- text number audio video
+instruction -- add multiply  display
