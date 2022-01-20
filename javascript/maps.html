@@ -1,8 +1,11 @@
-<h1 id=x></h1>
+<h1 id="x"></h1>
 
 <script>
-    let numbers = [16, 25, 36];
-let results = numbers.map(x=>"<h1>"+x+"</h1>");
-document.getElementById("x").innerHTML=results.
-console.log(results);
+  let numbers = [16, 25, 36];
+ // let results = numbers.map((x) => "<h1>" + x + "</h1>");
+
+ let results=numbers.map(function(num){
+     return "<h1>"+num+"</h1>";
+ })
+   document.getElementById("x").innerHTML = results;
 </script>

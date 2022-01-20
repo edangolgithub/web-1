@@ -1,0 +1,15 @@
+{
+  "name": "sabinserver",
+  "version": "1.0.0",
+  "description": "jknsdfkjns",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sabin",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "express": "^4.17.2"
+  }
+}
